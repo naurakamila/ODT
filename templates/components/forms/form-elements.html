@@ -1,0 +1,74 @@
+{% extends 'partials/base.html' %} {% load static %} {% block title %}Form Elements{% endblock title %} {% block content %}
+<div class="main-content">
+    <div class="page-content">
+        <!-- start page title -->
+        <div class="page-title-box">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="page-title">
+                            <h4>Form Elements</h4>
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Morvin</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Forms</a></li>
+                                <li class="breadcrumb-item active">Form Elements</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="float-end d-none d-sm-block">
+                            <a href="" class="btn btn-success">Add Widget</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end page title -->
+        <div class="container-fluid">
+            <div class="page-content-wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="header-title">Textual inputs</h4>
+                                <p class="card-title-desc">Here are examples of <code class="highlighter-rouge">.form-control</code> applied to each textual HTML5 <code class="highlighter-rouge">&lt;input&gt;</code> <code class="highlighter-rouge">type</code>.</p>
+                                <div class="row mb-3">
+                                    <label for="example-text-input" class="col-sm-2 col-form-label">Text</label>
+                                    <div class="col-sm-10">
+                                        <input class="form-control" type="text" placeholder="Artisanal kale" id="example-text-input">
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="row mb-3">
+                                    <label for="example-date-input" class="col-sm-2 col-form-label">Date</label>
+                                    <div class="col-sm-10">
+                                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">Type</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-select" aria-label="Default select example">
+                          
+                                            <option value="1">Pemasukan</option>
+                                            <option value="2">Pengeluaran</option>
+                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <!-- end row -->
+            </div>
+        </div>
+        <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+    {% endblock content %}
